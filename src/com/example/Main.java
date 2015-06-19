@@ -11,6 +11,9 @@ public final class Main {
         System.out.println("-----");
         System.out.println("TreeSetBackedBag");
         testBag(new TreeSetBackedBag<String>());
+        System.out.println("-----");
+        System.out.println("SimpleSetOfListsBackedBag");
+        testBag(new SimpleSetOfListsBackedBag<String>());
     }
 
     private static void testBag(final Bag<String> testBag) {
